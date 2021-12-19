@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="menutextsize">35dp</dimen>
-    <dimen name="menutextviewwidth">320dp</dimen>
+    <dimen name="menutextsize">35sp</dimen>
+    <dimen name="menutextviewwidth">290dp</dimen>
     <dimen name="menuitemsmarginabove">10dp</dimen>
 </resources>

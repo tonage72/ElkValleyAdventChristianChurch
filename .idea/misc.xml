@@ -3,6 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/rounded_corner_view.xml" value="0.34270833333333334" />
+        <entry key="app/src/main/res/drawable/rounded_corner_view_menu_items.xml" value="0.34270833333333334" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.291213768115942" />
       </map>
     </option>

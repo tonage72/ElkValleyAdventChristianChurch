@@ -3,19 +3,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:gravity="center_vertical"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/titletext"
+        android:layout_marginTop="@dimen/menuitemsmarginabove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:text="@string/titletext"
+        android:textAlignment="center"
+        android:background="@drawable/rounded_corner_view"
+        android:textSize="@dimen/menutextsize"/>
+
+    <TextView
         android:id="@+id/item1"
+        android:layout_marginTop="@dimen/menuitemsmarginabove"
         android:layout_width="@dimen/menutextviewwidth"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textColor="@color/menutextcolor"
+        android:textColor="@color/teal_200"
         android:text="@string/menuitem1"
         android:textAlignment="center"
-        android:background="@color/menutextviewbkground"
+        android:background="@drawable/rounded_corner_view_menu_items"
         android:textSize="@dimen/menutextsize"/>
 
     <TextView
@@ -24,10 +36,10 @@
         android:layout_width="@dimen/menutextviewwidth"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textColor="@color/menutextcolor"
+        android:textColor="@color/teal_200"
         android:text="@string/menuitem2"
         android:textAlignment="center"
-        android:background="@color/menutextviewbkground"
+        android:background="@drawable/rounded_corner_view_menu_items"
         android:textSize="@dimen/menutextsize" />
 
     <TextView
@@ -36,10 +48,10 @@
         android:layout_width="@dimen/menutextviewwidth"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:textColor="@color/menutextcolor"
+        android:textColor="@color/teal_200"
         android:text="@string/menuitem3"
         android:textAlignment="center"
-        android:background="@color/menutextviewbkground"
+        android:background="@drawable/rounded_corner_view_menu_items"
         android:textSize="@dimen/menutextsize" />
 
 </LinearLayout>

@@ -1,15 +1,8 @@
 <resources>
     <string name="app_name">Elk Valley Advent Christian Church</string>
 
-    <string-array name="planets_array">
-        <item>Mercury</item>
-        <item>Venus</item>
-        <item>Earth</item>
-        <item>Mars</item>
-        <item>Jupiter</item>
-        <item>Saturn</item>
-        <item>Uranus</item>
-        <item>Neptune</item>
-    </string-array>
+    <string name="menuitem1">Information</string>
+    <string name="menuitem2">Videos</string>
+    <string name="menuitem3">Announcements</string>
 
 </resources>

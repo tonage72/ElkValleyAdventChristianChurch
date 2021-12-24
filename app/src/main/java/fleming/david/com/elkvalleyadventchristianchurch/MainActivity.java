@@ -1,7 +1,9 @@
 package fleming.david.com.elkvalleyadventchristianchurch;
 
 import android.app.Activity;
+import android.content.Context;
 import android.os.Bundle;
+import android.widget.Toast;
 
 public class MainActivity extends Activity {
 
@@ -20,5 +22,7 @@ public class MainActivity extends Activity {
         super.onResume();
 
         setContentView(R.layout.activity_main);
+        Context context = getApplicationContext();
+        new ShowToast(context);
     }
 }
